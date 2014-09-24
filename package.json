@@ -1,19 +1,27 @@
 {
   "name": "pg-array",
   "version": "0.1.0",
-  "description": "Convert objects to PostgreSQL array representation.",
+  "description": "Convert arrays and delimited strings to PostgreSQL array representation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmoore/pg-array"
   },
   "keywords": [
     "pg",
     "array",
+    "arrays",
     "postgresql",
     "postgres",
-    "convert",
-    "arrays"
+    "convert"
   ],
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^3.0.0"
+  }
 }

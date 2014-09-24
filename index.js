@@ -2,9 +2,14 @@
 
 module.exports = pgarray;
 
-var trim = Function.prototype.call.bind(String.prototype.trim);
-
-function pgarray(value) {
-  return "{" + value.split(",").map(trim).join(",") + "}";
+function pgarray(value, delimiter) {
+  return '{' + toArray(value, delimiter).map(trim).join(',') + '}';
 }
 
+function toArray(value, delimiter) {
+  return Array.isArray(value) ? value : value.split(delimiter || ',');
+}
+
+function trim(value) {
+  return String(value).replace(/(^\s*|\s*$)/g, '');
+}
