@@ -1,6 +1,6 @@
 {
   "name": "pg-array",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Convert arrays and delimited strings to PostgreSQL array representation.",
   "main": "index.js",
   "scripts": {
