@@ -23,5 +23,8 @@
   "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^3.0.0"
+  },
+  "dependencies": {
+    "to-array.js": "^0.3.0"
   }
 }
