@@ -1,6 +1,6 @@
 # pg-array
 
-[![Build Status](http://img.shields.io/travis/wilmoore/pg-array.svg)](https://travis-ci.org/wilmoore/pg-array) [![NPM version](http://img.shields.io/npm/v/pg-array.svg)](https://www.npmjs.org/package/pg-array) [![NPM downloads](http://img.shields.io/npm/dm/pg-array.svg)](https://www.npmjs.org/package/pg-array) [![LICENSE](http://img.shields.io/npm/l/pg-array.svg)](LICENSE)
+[![Build Status](http://img.shields.io/travis/wilmoore/pg-array.svg)](https://travis-ci.org/wilmoore/pg-array) [![NPM version](http://img.shields.io/npm/v/pg-array.svg)](https://www.npmjs.org/package/pg-array) [![NPM downloads](http://img.shields.io/npm/dm/pg-array.svg)](https://www.npmjs.org/package/pg-array) [![LICENSE](http://img.shields.io/npm/l/pg-array.svg)](license)
 
 > Convert arrays and delimited strings to PostgreSQL array representation.
 
@@ -31,5 +31,5 @@
 
 ## License
 
-  [MIT](LICENSE)
+  [MIT](license)
 
